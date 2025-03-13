@@ -222,15 +222,20 @@
 ![drop_data](image/columns_drop.png)
 
 #### 2. NaN 값 제거 및 결측값 제거
-![NaN](image/NaN 제거.png)
+![Reason](image/Reason.png)
+![NaN](image/NaN_delete.png)
 
 #### 3. 이상치 값 변경
+![outlier_clean](image/outlier_clean.png)
 
 #### 4. 데이터 비율의 편차가 큰 행 제거
+![data_ratio](image/data_ratio.png)
+![part_name_data_ratio](image/part_name_data_ratio.png)
 
 #### 5. One-Hot-Encoding, Label Encording
-
-#### 6. 컬럼 순서 변환
+![part_name_one_hot_encoding](image/part_name_one_hot_encoding.png)
+![equip_name_one_hot_encoding](image/equip_name_one_hot_encoding.png)
+![PassOrFail_label_encoding](image/PassOrFail_label_encoding.png)
 
 ### 3. 데이터 시각화
 
