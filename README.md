@@ -97,16 +97,6 @@
 
 <hr>
 
-## 🔧WBS
-
-| 작업명         | 시작일   | 완료일   | 담당자 | 산출물 |
-|----------------|----------|----------|--------|--------|
-| 프로젝트 주제 선정 | 25.03.10 | 25.03.12 |  ALL  | -  |
-| 데이터 전처리 | 25.03.12 | 25.03.14 |   ALL   | -      |
-| 시각화 | 25.03.13 | 25.03.14 |  ALL      | -      |
-
-<hr>
-
 ## 🔎분석 내용
 1. 데이터의 속성별 의미<br>
 
@@ -145,26 +135,76 @@
 
 <details>
   <summary>쇼트숏(충전연료 부족)</summary>
-* 원료 공급불량
-* 충전압력 부족
-* 금형 내 유동 중의 원료 고화
-* 금형 내의 공기 저항
+  
+  - 원료 공급불량
+  - 충전압력 부족
+  - 금형 내 유동 중의 원료 고화
+  - 금형 내의 공기 저항
+    
+</details>
+<details>
+  <summary>플래시(흘러넘침)</summary>
+
+  - 성형품 주입부 이외의 부분으로 용융 플라스틱 유출되어 고화
+  
+</details>
+<details>
+  <summary>싱크마크(표면 함몰)</summary>
+
+  - 압축되어진 용융 플라스틱의 온도 저하에 의한 체적의 감소, 압력 저하에 동반하는 체적의 증가 균형이 깨지는 것이 직접원인
+  
+</details>
+<details>
+  <summary>플로우마크 (표면 거칠어짐)</summary>
+
+  - 용융원료가 금형 내를 주름 상으로 파동하며 흘러서 금형면과 보다 많이 접촉한 부분이 앞서 고화되는 문제
+  - 아직 충분히 해명되고 있지 않은 점도 있음
+  - 금형유동시 수지의 점도가 크면 발생하기 쉽다.
+  
+</details>
+<details>
+  <summary>은조흔 (원료의 조흔)</summary>
+
+  - 성형품이 고화되기 전에 표면을 가스가 지나간 흔적으로 인해 은조흔 발생
+  - 금형면에 플라스틱이 충분히 압착되지 못하기도 하고 노즐로부터 배출된 가스가 금형표면에 응축해서 플라스틱 층과 금형면의 직접 접착을 방해하는 것이 원인
+  
+</details>
+<details>
+  <summary>광택불량</summary>
+
+  - 이형제를 너무 도포
+  - 금형면에 플라스틱이 충분히 압착되지 못함
+  - 가스가 금형표면에 응축해서 플라스틱 층과 금형면의 직접 접착을 방해
+  
+</details>
+<details>
+  <summary>웰드라인(플라스틱 두개에 용착한 부분 갈라짐)</summary>
+
+  - 성형품에 빈틈부가 있는 경우
+  - 두께의 변화가 있어 두꺼운 부분으로부터 엷은 부분으로 일방적으로 원료를 흐르게 하지 않는 경우 게이트가 2개 이상있는 경우에는 웰드라인의 발생은 피할 수 없다.
+  - 게이트가 2개 이상 있는 경우
+  
+</details>
+<details>
+  <summary>기포</summary>
+
+  - 다량의 가스가 노즐로부터 방출되어지기도 하고 금형 내에서 용융 플라스틱에 충분한 압력이 작용하지 않는 경우 발생
+  
+</details>
+<details>
+  <summary>변형 또는 휨</summary>
+
+  - 성형품의 잔류응력
+  - 성형수축률이 크고, 그 수치가 불균일한 두께에 따른 냉각속도의 차이
+  
 </details>
 
-* 성형품 주입부 이외의 부분으로 용융 플라스틱 유출되어 고화
-* 압축되어진 용융 플라스틱의 온도 저하에 의한 체적의 감소, 압력 저하에 동반하는 체적의 증가 균형이 깨지는 것이 직접원인
-* 용융원료가 금형 내를 주름 상으로 파동하며 흘러서 금형면과 보다 많이 접촉한 부분이 앞서 고화되는 문제
-* 성형품이 고화되기 전에 표면을 가스가 지나간 흔적으로 인해 은조흔 발생생
-* 금형면에 플라스틱이 충분히 압착되지 못하기도 하고 노즐로부터 배출된 가스가 금형표면에 응축해서 플라스틱 층과 금형면의 직접 접착을 방해하는 것이 원인
-* 성형품에 빈틈부가 있는 경우 두께의 변화가 있어 두꺼운 부분으로부터 엷은 부분으로 일방적으로 원료를 흐르게 하지 않는 경우 게이트가 2개 이상있는 경우에는 웰드라인의 발생은 피할 수 없다.
-* 다량의 가스가 노즐로부터 방출되어지기도 하고 금형 내에서 용융 플라스틱에 충분한 압력이 작용하지 않는 경우에 발생한다.
-* 성형수축률이 크고, 그 수치가 불균일한 두께에 따른 냉각속도의 차이 등으로 인해 부분적으로 상당히 변화하는 폴리에틸렌, 폴리프로필렌 등에서는 특히 문제가 되는 일이 많다.
 3. 주요 원인의 영향이 되는 속성들
-* 양 관련 : Clamp_Open_Position, Plasticizing_Position, Switch_Over_Position, Cushion_Position
-* 압력 관련 : Max_Injection_Pressure, Max_Switch_Over_Pressure, Average_Back_Pressure
-* 온도 관련 : Barrel_Temperature_1 ~ 7, Hopper_Temperature, Mold_Temperature_1 ~ 12
-* 속도 관련 : Average_Screw_RPM, Max_Screw_RPM, Max_Injection_Speed
-* 시간 관련 : Injection_Time, Filling_Time, Plasticizing_Time, Cycle_Time, Clamp_Close_Time
+* 양 관련 : **Clamp_Open_Position**, **Plasticizing_Position**, **Switch_Over_Position**, **Cushion_Position**
+* 압력 관련 : **Max_Injection_Pressure**, **Max_Switch_Over_Pressure**, **Average_Back_Pressure**
+* 온도 관련 : **Barrel_Temperature_1 ~ 7**, **Hopper_Temperature**, **Mold_Temperature_1 ~ 12**
+* 속도 관련 : **Average_Screw_RPM**, **Max_Screw_RPM**, **Max_Injection_Speed**
+* 시간 관련 : **Injection_Time**, **Filling_Time**, **Plasticizing_Time**, **Cycle_Time**, **Clamp_Close_Time**
 
 
 
@@ -173,11 +213,27 @@
 * labeled_data : label이 있는 데이터
 * unlabeled_data : label이 없는 데이터
 ##### 1. 먼저 labeled_data를 불러와 전처리를 해준다.
-![데이터로드](image/label_data_load.png)
+![labeled_data_load](image/label_data_load.png)
 ##### 2. labeled_data의 종속변수인 PassOrFail의 데이터가 비대칭이기에 unlabeled_data를 불러와 labeled_data와 합쳐준다.
 ![unlabeled_data_load](image/unlabeled_data_load.png)
 ### 2. 데이터 전처리
+#### 1. 필요없는 속성 제거
+
+#### 2. NaN 값 제거 및 결측값 제거
+
+#### 3. 이상치 값 변경
+
+#### 4. 데이터 비율의 편차가 큰 행 제거
+
+#### 5. One-Hot-Encoding, Label Encording
+
+#### 6. 컬럼 순서 변환
+
 ### 3. 데이터 시각화
+
+
+
+
 
 
 <hr>
@@ -189,11 +245,8 @@
 
 🧑🏻‍🦱 근
 
-- 과거 공정 데이터셋 EDA를 해보았으니 아무것도 모르고 시도했을 때와 다르게 이번에는 더 자세히 분석해 볼 수 있어 매우 도움이 되었습니다. 
+- 과거 공정 데이터셋 EDA를 해보았으니 아무것도 모르고 시도했을 때와 다르게 이번에는 더 자세히 분석해 볼 수 있어 매우 도움이 되었습니다.
 
 👱🏻‍♀️ 민정
 
-- 🥹 공정 과정이 담긴 제조 데이터셋을 처음 다뤄봤는데 생각보다 피쳐에 대한 이해가 힘들어 조금 아쉬웠습니다
-  
-- ☺️ 정제되지 않은 데이터를 다뤄봤다는 점에서 의미 있었고, 분석을 어떻게 진행하고 데이터를 나눌지, 분석 결과를 어떻게 시각화해야 좋을지 생각하며 많은 공부가 되었습니다
-  
+- 공정 과정이 담긴 제조 데이터셋을 처음 다뤄봤는데, 생각보다 피쳐에 대한 이해가 힘들어 조금 아쉬웠습니다. 하지만 정제되지 않은 데이터를 다뤄봤다는 점에서 의미 있는 프로젝트였습니다.
