@@ -218,8 +218,11 @@
 ![unlabeled_data_load](image/unlabeled_data_load.png)
 ### 2. 데이터 전처리
 #### 1. 필요없는 속성 제거
+![drop_data](image/drop_dat.png)
+![drop_data](image/columns_drop.png)
 
 #### 2. NaN 값 제거 및 결측값 제거
+![NaN](image/NaN 제거.png)
 
 #### 3. 이상치 값 변경
 
