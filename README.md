@@ -4,19 +4,19 @@
 #### SKN Family AI 캠프 11기  EDA 미니 프로젝트 <br/>
 #### 기간: 2025.03.12 - 2025.03.14 <br/><br/>
 
-## 👤 팀원
+### 👤 팀원
 
 <table>
   <thead>
     <td align="center">
       <a href="https://github.com/KimHyeongJu">
-        <img src="https://github.com/Kim Hyeong Ju.png" width="150" alt="Hyeong Ju"/><br /><hr/>
+        <img src="https://github.com/Kim-Hyeong-Ju.png" width="150" alt="Hyeong Ju"/><br /><hr/>
         김형주
       </a><br />
     </td>
     <td align="center">
-      <a href="https://github.com/Lee Keun">
-        <img src="https://github.com/Lee Keun.png" width="150" alt="Keun"/><br /><hr/>
+      <a href="https://github.com/REROUN">
+        <img src="https://github.com/REROUN.png" width="150" alt="Keun"/><br /><hr/>
         이 근
       </a><br />
     </td>
@@ -30,12 +30,16 @@
 </table>
 
 <br/><br/>
+<hr>
 
 ## 2️⃣ 프로젝트 소개
 ### 사출성형이란?
-- 사출성형이란 플라스틱 성형법 중의 한 방법
+![image (1)](https://github.com/user-attachments/assets/bb1d1aea-2bca-4209-bd38-7b6358bcb693)
+- 플라스틱 성형법 중의 한 방법
 - 열가소성 수지를 가열해서 유동 상태로 되었을 때 금형의 공동부에 가압 주입하여 금형 내에서 냉각시킴으로써, 금형의 공동부에 상당하는 성형품을 만드는 방법 <br>
 -> 사출성형기 데이터를 이용하여 사출 성형 최적 조건을 분석한다. <br>
+
+
 
 ### 📖 프로젝트 목표
   - 생산 효율 극대화 및 생산비용 절감
@@ -45,7 +49,6 @@
 <br/>
 
 ### ⭐ 프로젝트 필요성
-
 <table>
   <thead>
     <td><b>항목</b></td>
@@ -75,32 +78,60 @@
   <a href="https://news.mt.co.kr/mtview.php?no=2025020715270842227">
     <img width="800" alt="기사 이미지" src="https://github.com/user-attachments/assets/f57d53a4-7ad9-4660-a3f3-b95a91d799f1" />
     <br />
-    <strong>[기사 제목: 2025년 2월 7일 MT 뉴스]</strong>
+    <strong>[2025년 2월 7일 MT 뉴스]</strong>
+  </a>
+</p>
+
+<p align="center">
+  <a href="http://www.engjournal.co.kr/news/articleView.html?idxno=3153">
+    <img width="800" alt="기사 이미지" src="http://www.engjournal.co.kr/news/articleView.html?idxno=3153" />
+    <br />
+    <strong>[2025년 2월 7일 ENG Journal]</strong>
   </a>
 </p>
 
 
 <br/><br/>
+<hr>
 
-# 3️⃣ 기술 스택
-### <데이터 시각화>
+## 3️⃣ 기술 스택
+#### [데이터 시각화]
 <p>
-  <img src="https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/matplotlib-0077B5.svg?style=for-the-badge&logo=matplotlib&logoColor=white">
-  <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white"> <br>
+  <img src="https://img.shields.io/badge/matplotlib-0077B5.svg?style=for-the-badge&logo=matplotlib&logoColor=white"> <br>
+  <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white"> <br>
   <img src= "https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white">
 </p>
 
+<hr>
 
-<br/><br/>
+## 🔎분석 내용
+1. 
+2. 
+3.
 
 
-# ⭐ 한 줄 회고
+
+
+## 📚 분석 과정
+### 1. 데이터 로드
+### 2. 데이터 전처리
+### 3. 데이터 시각화
+
+
+
+
+
+
+<hr>
+
+## ⭐ 한 줄 회고
 🧑🏻 형주
 
-- 
+- EDA를 처음 해보는 프로젝트여서 많이 미숙했던 것 같지만 좋은 팀원들을 만나서 다행히 잘 끝낸 것 같습니다. 감사합니다.
 
-🧑🏻‍🦱근
+🧑🏻‍🦱 근
+
 - 
 
 👱🏻‍♀️ 민정
