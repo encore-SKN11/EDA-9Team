@@ -146,12 +146,6 @@
 * 온도 관련 : Barrel_Temperature_1 ~ 7, Hopper_Temperature, Mold_Temperature_1 ~ 12
 * 속도 관련 : Average_Screw_RPM, Max_Screw_RPM, Max_Injection_Speed
 * 시간 관련 : Injection_Time, Filling_Time, Plasticizing_Time, Cycle_Time, Clamp_Close_Time
-4. 필요없는 속성
-* _id
-* EQUIP_CD
-* PART_FACT_SERIAL
-* PART_FACT_PLAN_DATE
-* TimeStamp
 
 
 
