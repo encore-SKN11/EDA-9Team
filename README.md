@@ -99,9 +99,59 @@
 
 ## 🔎분석 내용
 1. 데이터의 속성별 의미
+* _id : 제조 공정 id
+* TimeStamp : 시간
+* PART_FACT_PLAN_DATE : 생산을 지시한 날짜
+* PART_FACT_SERIAL : 생산을 지시한 품목에 대한 코드 부여
+* PART_NAME : 제품의 이름
+* EQUIP_CD : 생산한 사출기 호기
+* EQUIP_NAME : 생산한 사출기 모델명
+* PassOrFail : 사출되는 각 물품 마다 검수자가 양품 선별을 하여 붙이는 레이블 값
+* Reason : 검수자가 양품선별 시, 불량으로 확인된 제품에 대해 불량 유형을 나타냄 
+* Injection_Time : 고압+사출시간(고압(사출압) : 재료를 금형에 유입시킬때의 압력), 사출 시간 : 재료를 금형에 유입시키는데 소요되는 시간
+* Filling_Time : 충진시간으로 사출기에서 금형으로 내용물이 주입되는 시간
+* Plasticizing_Time : 계량시간으로 재료를 스크류에 1번 생산할 만큼 용융되어 저장되는 시간
+* Cycle_Time : 1번의 제품생산에 소요되는 생산시간
+* Clamp_Close_Time : 제품이 생산되고 난후 열려있는 금형을 사출기가 닫아주고 빈틈이 없이 고정축과 이동축을 꽉 잡아주는데 걸리는 시간
+* Cushion_Position :보압(사출압의 다음으로 가해지는 압력(금형내부압력을 조절하여 과충전을 방지))을 하기위한 스크류의 위치
+* Switch_Over_Position : 고압,보압절환위치(고압(사출압)에서 보압으로 진행될때의 위치)
+* Plasticizing_Position : 계량완료위치(계량을 마친 스크류의 위치)
+* Clamp_Open_Position : 제품이 생산되어 추출하기위해 금형이 열리고 난 위치
+* Max_Injection_Speed : 배럴에 계량되어 있는 용융수지가 금형으로 흘러들어가는데 측정되는 최대속도
+* Max_Screw_RPM : 사출을 위한 스크류의 최대속도
+* Average_Screw_RPM : 사출을 위한 스크류의 평균속도
+* Max_Injection_Pressure : 배럴에 계량되어 있는 용융수지가 금형으로 흘러들어가는데 가해지는 최대압력
+* Max_Switch_Over_Pressure : 사출에서 보압(충진된 수지가 밀리지않게 압력을준다)으로 변환되는 압력
+* Max_Back_Pressure : 수지가 계량이 되는중에 스크류가 밀려나는 현상을 저지하기위한 최대압력
+* Average_Back_Pressure : 수지가 계량이 되는중에 스크류가 밀려나는 현상을 저지하기위한 평균압력
+* Barrel_Temperature_1 ~ 7 : 계량 및 사출시 수지가 일정하게 용융(녹임)을 유지하기위해 온도가 일정해야한다
+* Hopper_Temperature : 재료주입구의 온도(충분히 건조시켜주며 재료가 용융되는시간을 절약시켜주기위해 온도가 높아야한다)
+* Mold_Temperature_1 ~ 12 : 재료주입구의 온도(충분히 건조시켜주며 재료가 용융되는시간을 절약시켜주기위해 온도가 높아야한다)
 2. 사출 성형기 불량 요인 분석
+* 원료 공급불량
+* 충전압력 부족
+* 금형 내 유동 중의 원료 고화
+* 금형 내의 공기 저항
+* 성형품 주입부 이외의 부분으로 용융 플라스틱 유출되어 고화
+* 압축되어진 용융 플라스틱의 온도 저하에 의한 체적의 감소, 압력 저하에 동반하는 체적의 증가 균형이 깨지는 것이 직접원인
+* 용융원료가 금형 내를 주름 상으로 파동하며 흘러서 금형면과 보다 많이 접촉한 부분이 앞서 고화되는 문제
+* 성형품이 고화되기 전에 표면을 가스가 지나간 흔적으로 인해 은조흔 발생생
+* 금형면에 플라스틱이 충분히 압착되지 못하기도 하고 노즐로부터 배출된 가스가 금형표면에 응축해서 플라스틱 층과 금형면의 직접 접착을 방해하는 것이 원인
+* 성형품에 빈틈부가 있는 경우 두께의 변화가 있어 두꺼운 부분으로부터 엷은 부분으로 일방적으로 원료를 흐르게 하지 않는 경우 게이트가 2개 이상있는 경우에는 웰드라인의 발생은 피할 수 없다.
+* 다량의 가스가 노즐로부터 방출되어지기도 하고 금형 내에서 용융 플라스틱에 충분한 압력이 작용하지 않는 경우에 발생한다.
+* 성형수축률이 크고, 그 수치가 불균일한 두께에 따른 냉각속도의 차이 등으로 인해 부분적으로 상당히 변화하는 폴리에틸렌, 폴리프로필렌 등에서는 특히 문제가 되는 일이 많다.
 3. 주요 원인의 영향이 되는 속성들
-
+* 양 관련 : Clamp_Open_Position, Plasticizing_Position, Switch_Over_Position, Cushion_Position
+* 압력 관련 : Max_Injection_Pressure, Max_Switch_Over_Pressure, Average_Back_Pressure
+* 온도 관련 : Barrel_Temperature_1 ~ 7, Hopper_Temperature, Mold_Temperature_1 ~ 12
+* 속도 관련 : Average_Screw_RPM, Max_Screw_RPM, Max_Injection_Speed
+* 시간 관련 : Injection_Time, Filling_Time, Plasticizing_Time, Cycle_Time, Clamp_Close_Time
+4. 필요없는 속성
+* _id
+* EQUIP_CD
+* PART_FACT_SERIAL
+* PART_FACT_PLAN_DATE
+* TimeStamp
 
 
 
