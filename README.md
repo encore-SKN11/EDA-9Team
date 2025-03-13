@@ -107,7 +107,11 @@
 
 ## 📚 분석 과정
 ### 1. 데이터 로드
-![alt text](image/image.png)
+* labeled_data : label이 있는 데이터
+* unlabeled_data : label이 없는 데이터
+1. 먼저 labeled_data를 불러와 전처리를 해준다.
+2. labeled_data의 종속변수인 PassOrFail의 데이터가 비대칭이기에 unlabeled_data를 불러와 labeled_data와 합쳐준다.
+![데이터로드](image/data_load.png)
 ### 2. 데이터 전처리
 ### 3. 데이터 시각화
 
