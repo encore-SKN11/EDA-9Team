@@ -9,14 +9,14 @@
 <table>
   <thead>
     <td align="center">
-      <a href="">
-        <img src="" width="150" alt="hojin"/><br /><hr/>
+      <a href="https://github.com/KimHyeongJu">
+        <img src="https://github.com/Kim Hyeong Ju.png" width="150" alt="Hyeong Ju"/><br /><hr/>
         김형주
       </a><br />
     </td>
     <td align="center">
-      <a href="">
-        <img src="" width="150" alt="junhee"/><br /><hr/>
+      <a href="https://github.com/Lee Keun">
+        <img src="https://github.com/Lee Keun.png" width="150" alt="Keun"/><br /><hr/>
         이 근
       </a><br />
     </td>
@@ -38,7 +38,6 @@
 -> 사출성형기 데이터를 이용하여 사출 성형 최적 조건을 분석한다. <br>
 
 ### 📖 프로젝트 목표
-
   - 생산 효율 극대화 및 생산비용 절감
     - 사출성형품의 불량률을 최소화하여 생산 효율을 개선할 수 있다
 - 공정 변수 최적화
@@ -73,46 +72,28 @@
 </table>
 
 <p align="center">
-  <a href="[![image](https://github.com/user-attachments/assets/6e16ada4-5e81-46b0-8e16-31f354b18755)](https://news.mt.co.kr/mtview.php?no=2025020715270842227)">
-    <img width="800" alt="image" src="![Uploading image.png…]()" />
+  <a href="https://news.mt.co.kr/mtview.php?no=2025020715270842227">
+    <img width="800" alt="기사 이미지" src="https://github.com/user-attachments/assets/f57d53a4-7ad9-4660-a3f3-b95a91d799f1" />
+    <br />
+    <strong>[기사 제목: 2025년 2월 7일 MT 뉴스]</strong>
   </a>
 </p>
 
-<br/><br/>
-
-### 🎯 프로젝트 목표
-### **<전체 목표>**
 
 <br/><br/>
 
 # 3️⃣ 기술 스택
-
-### <협업 및 소통 툴>
-
-<p>
-  <img src="https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white">
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=vscode&logoColor=white">
-  
-</p>
-
-
-### <DB 및 데이터 시각화>
+### <데이터 시각화>
 <p>
   <img src="https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white">
   <img src="https://img.shields.io/badge/matplotlib-0077B5.svg?style=for-the-badge&logo=matplotlib&logoColor=white">
+  <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white">
+  <img src= "https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white">
 </p>
 
-<br/><br/>
-
-# 4️⃣ WBS
-
-
 
 <br/><br/>
 
-<br/><br/>
 
 # ⭐ 한 줄 회고
 🧑🏻 형주
@@ -120,8 +101,8 @@
 - 
 
 🧑🏻‍🦱근
-
 - 
+
 👱🏻‍♀️ 민정
 
-- 
+- 공정 과정이 담긴 제조 데이터셋을 처음 다뤄봤는데, 생각보다 피쳐에 대한 이해가 힘들어 조금 아쉬웠습니다. 하지만 정제되지 않은 데이터를 다뤄봤다는 점에서 의미 있는 프로젝트였습니다.
