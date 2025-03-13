@@ -98,7 +98,7 @@
 <hr>
 
 ## 🔎분석 내용
-1. 데이터의 속성별 의미
+1. 데이터의 속성별 의미<br>
 |Attributes Name|Description|Unit|
 |------|---|---|
 |_id|제조 공정 id|-|
