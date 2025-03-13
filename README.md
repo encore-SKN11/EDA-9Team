@@ -82,14 +82,6 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="http://www.engjournal.co.kr/news/articleView.html?idxno=3153">
-    <img width="800" alt="기사 이미지" src="http://www.engjournal.co.kr/news/articleView.html?idxno=3153" />
-    <br />
-    <strong>[2025년 2월 7일 ENG Journal]</strong>
-  </a>
-</p>
-
 
 <br/><br/>
 <hr>
