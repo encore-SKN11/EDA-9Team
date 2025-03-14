@@ -218,15 +218,38 @@
 ![unlabeled_data_load](image/unlabeled_data_load.png)
 ### 2. 데이터 전처리
 #### 1. 필요없는 속성 제거
-![drop_data](image/drop_dat.png)
+![drop_data](image/drop_data.png)
 ![drop_data](image/columns_drop.png)
 
 #### 2. NaN 값 제거 및 결측값 제거
 ![Reason](image/Reason.png)
+![Berrel_Temperature_1](image/Barrel_Temperature_1.png)
+![Berrel_Temperature_2](image/Barrel_Temperature_2.png)
+![Berrel_Temperature_3](image/Barrel_Temperature_3.png)
+![Berrel_Temperature_4](image/Barrel_Temperature_4.png)
+![Berrel_Temperature_5](image/Barrel_Temperature_5.png)
+![Berrel_Temperature_6](image/Barrel_Temperature_6.png)
+![Berrel_Temperature_7](image/Barrel_Temperature_7.png)
+![Mold_Temperature_1](image/Mold_Temperature_1.png)
+![Mold_Temperature_2](image/Mold_Temperature_2.png)
+![Mold_Temperature_3](image/Mold_Temperature_3.png)
+![Mold_Temperature_4](image/Mold_Temperature_4.png)
+![Mold_Temperature_5](image/Mold_Temperature_5.png)
+![Mold_Temperature_6](image/Mold_Temperature_6.png)
+![Mold_Temperature_7](image/Mold_Temperature_7.png)
+![Mold_Temperature_8](image/Mold_Temperature_8.png)
+![Mold_Temperature_9](image/Mold_Temperature_9.png)
+![Mold_Temperature_10](image/Mold_Temperature_10.png)
+![Mold_Temperature_11](image/Mold_Temperature_11.png)
+![Mold_Temperature_12](image/Mold_Temperature_12.png)
+
+
 ![NaN](image/NaN_delete.png)
 
 #### 3. 이상치 값 변경
+![boxplot](image/boxplot.png)
 ![outlier_clean](image/outlier_clean.png)
+![box](image/box.png)
 
 #### 4. 데이터 비율의 편차가 큰 행 제거
 ![data_ratio](image/data_ratio.png)
