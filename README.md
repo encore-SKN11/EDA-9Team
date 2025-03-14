@@ -215,6 +215,7 @@
 ##### 1. 먼저 labeled_data를 불러와 전처리를 해준다.
 ![labeled_data_load](image/label_data_load.png)
 ##### 2. labeled_data의 종속변수인 PassOrFail의 데이터가 비대칭이기에 unlabeled_data를 불러와 labeled_data와 합쳐준다.
+![data_분포](image/data_분포.png)
 ![unlabeled_data_load](image/unlabeled_data_load.png)
 ### 2. 데이터 전처리
 #### 1. 필요없는 속성 제거
@@ -253,6 +254,7 @@
 
 #### 4. 데이터 비율의 편차가 큰 행 제거
 ![data_ratio](image/data_ratio.png)
+![output](image/output.png)
 ![part_name_data_ratio](image/part_name_data_ratio.png)
 
 #### 5. One-Hot-Encoding, Label Encording
@@ -261,6 +263,9 @@
 ![PassOrFail_label_encoding](image/PassOrFail_label_encoding.png)
 
 ### 3. 데이터 시각화
+![image-1](image/image-1.png)
+![data](image/data.png)
+![image](image/image.png)
 ![heatmap](image/heatmap.png)
 
 
