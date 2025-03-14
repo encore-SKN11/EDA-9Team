@@ -81,9 +81,7 @@
     <strong>[2025년 2월 7일 MT 뉴스]</strong>
   </a>
 </p>
-
-
-<br/><br/>
+<br/>
 <hr>
 
 ## 3️⃣ 기술 스택
@@ -207,7 +205,6 @@
 * 시간 관련 : **Injection_Time**, **Filling_Time**, **Plasticizing_Time**, **Cycle_Time**, **Clamp_Close_Time**
 
 
-
 ## 📚 분석 과정
 ### 1. 데이터 로드
 * labeled_data : label이 있는 데이터
@@ -267,11 +264,6 @@
 ![data](image/data.png)
 ![image](image/image.png)
 ![heatmap](image/heatmap.png)
-
-
-
-
-
 
 <hr>
 
