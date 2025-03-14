@@ -238,6 +238,7 @@
 ![PassOrFail_label_encoding](image/PassOrFail_label_encoding.png)
 
 ### 3. 데이터 시각화
+![heatmap](image/heatmap.png)
 
 
 
