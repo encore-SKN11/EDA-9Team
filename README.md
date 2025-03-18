@@ -5,7 +5,6 @@
 #### 기간: 2025.03.12 - 2025.03.21 <br/><br/>
 
 ### 👤 팀원
-
 <table>
   <thead>
     <td align="center">
@@ -71,15 +70,103 @@
 </p>
 
 <hr>
+## 🔎 데이터
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime & Rating Data</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            text-align: left;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime & Rating Data</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            text-align: left;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h2>Anime Dataset</h2>
+    <h3>12994 rows</h3>
+    <table>
+        <tr>
+            <th>anime_id</th>
+            <th>name</th>
+            <th>genre</th>
+            <th>type</th>
+            <th>episodes</th>
+            <th>rating</th>
+            <th>members</th>
+        </tr>
+        <tr>
+            <td>Unique ID</td>
+            <td>애니메이션 이름</td>
+            <td>애니메이션 장르</td>
+            <td>방영 유형</td>
+            <td>에피소드 수</td>
+            <td>평균 평점 (10점 만점)</td>
+            <td>커뮤니티 멤버 수</td>
+        </tr>
+    </table>
+    <h2>Rating Dataset</h2>
+    <h3>7813737 rows</h3>
+    <table>
+        <tr>
+            <th>user_id</th>
+            <th>anime_id</th>
+            <th>rating</th>
+        </tr>
+        <tr>
+            <td>무작위 생성된 사용자 ID</td>
+            <td>사용자가 평가한 애니메이션 ID</td>
+            <td>사용자 평가 (10점 만점, -1은 미평가)</td>
+        </tr>
+    </table>
+</body>
+</html>
 
-## 🔎분석 내용
+<hr>
+
+## 🤓 분석 내용
 1. 데이터의 속성별 의미<br>
 
 2. 고객별 애니메이션 시청 경향
 
 3. ...
 
-
+<hr>
 
 ## 📚 분석 과정
 ### 1. 데이터 로드
